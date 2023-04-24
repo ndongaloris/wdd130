@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Roboto:ital@0;1&display=swap');
+:root{
+    --primary-color: #666B6A;
+    --secondary-color: #72A276;
+    --accent1-color: #8AE9C1;
+    --accent2-color: #86CD82; 
+
+    --heading-font: 'Open Sans', sans-serif;;
+    --paragraph-font: 'Roboto', sans-serif;
+    
+    --nav-background: #8AE9C1;
+    --nav-link-color: #666B6A;
+    --nav-hover-link-color: #86CD82;
+    --nav-hover-background: #72A276;
+}
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, h3, h4{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p{
+    padding: 25px;
+}
+nav{
+    background-color:var(--nav-background) ;
+    font-size: 1.2em;
+    display: flex;
+}
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a :link, nav a:visited{
+    color: var(--nav-link-color);
+}
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background);
+}
