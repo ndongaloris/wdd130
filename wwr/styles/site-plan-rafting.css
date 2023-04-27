@@ -47,3 +47,15 @@ nav a:hover{
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background);
 }
+.Primary-color{
+    background-color: #666B6A;
+}
+.secondary-color{
+   background-color: #72A276;
+}
+.accent1-color{
+    background-color: #8AE9C1;
+}
+.accent2-color{
+    background-color: #86CD82;
+}
