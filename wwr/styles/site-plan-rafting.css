@@ -2,15 +2,15 @@
 :root{
     --primary-color: #666B6A;
     --secondary-color: #72A276;
-    --accent1-color: #8AE9C1;
-    --accent2-color: #86CD82; 
+    --accent1-color: #86CD82; 
+    --accent2-color: #8AE9C1;
 
     --heading-font: 'Open Sans', Arial, sans-serif;;
     --paragraph-font: 'Roboto', Verdana, sans-serif;
     
-    --nav-background-color: #8AE9C1;
+    --nav-background-color: #86CD82;
     --nav-link-color: #666B6A;
-    --nav-hover-link-color: #86CD82;
+    --nav-hover-link-color: #8AE9C1;
     --nav-hover-background-color: #72A276;
 }
 body{
