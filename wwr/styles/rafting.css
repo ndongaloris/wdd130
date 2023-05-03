@@ -37,7 +37,7 @@ body {
   height: 400px;
 }
 
-h1 {
+.hero h1 {
   position: absolute;
   width: 100%;
   top: 0;
@@ -70,4 +70,5 @@ a {
   font-size: larger;
   font-family: var(--heading-font);
   color: var(--primary-color);
+  padding: 5px;
 }
