@@ -45,6 +45,11 @@ aside{
     text-align: center;
 }
 
+aside h2{
+    position: absolute;
+    top: 5px;
+    right: 135px;
+}
 aside img{
     width: 200px;
     height: auto;
@@ -65,10 +70,4 @@ footer {
     color: rgb(79, 137, 194);
     padding-left: 2rem;
     clear: both;
-}
-
-aside h2{
-    position: absolute;
-    top: 5px;
-    right: 135px;
 }
