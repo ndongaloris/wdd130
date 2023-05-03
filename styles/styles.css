@@ -60,10 +60,10 @@ footer {
 .box{
     margin: 1rem;
     border: 1px solid steelblue;
-    background-color: aliceblue;
     padding: 1rem;
-    padding-left: 2rem;
+    background-color: aliceblue;
     color: rgb(79, 137, 194);
+    padding-left: 2rem;
     clear: both;
 }
 
