@@ -23,7 +23,6 @@ p {
 }
 
 body {
-  width: 70%;
   position: relative;
 }
 
@@ -56,9 +55,11 @@ body {
 article {
   position: absolute;
   padding: 20px;
-  margin-bottom: 80px;
   top: 190px;
   background-color: #ebc20f46;
+  width: 60%;
+  left: 36%;
+  
 }
 
 article p {
