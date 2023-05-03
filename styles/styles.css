@@ -34,13 +34,13 @@ p {
 }
 
 main{
-    width: 40% ;
+    width: 45% ;
     padding: 1rem;
 }
 
 aside{
     position:relative;
-    width: 40%;
+    width: 45%;
     padding: 1rem;
     text-align: center;
 }
@@ -62,6 +62,7 @@ footer {
     border: 1px solid steelblue;
     background-color: aliceblue;
     padding: 1rem;
+    padding-left: 2rem;
     color: rgb(79, 137, 194);
     clear: both;
 }
@@ -69,5 +70,5 @@ footer {
 aside h2{
     position: absolute;
     top: 5px;
-    right: 100px;
+    right: 135px;
 }
