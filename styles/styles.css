@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: steelblue;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+h1{
+    color: steelblue;
+}
+
+main img{
+    float: right;
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 10px gray;
+    margin: 10px 0 17px 10px;
+}
+
+p {
+    padding: 1rem;
+}
+
+main{
+    width: 40% ;
+    padding: 1rem;
+}
+
+aside{
+    position:relative;
+    width: 40%;
+    padding: 1rem;
+    text-align: center;
+}
+
+aside img{
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 10px;
+    border-top: 1px solid black;
+    text-align: center;
+}   
+
+/* Class Selectors */
+.box{
+    margin: 1rem;
+    border: 1px solid steelblue;
+    background-color: aliceblue;
+    padding: 1rem;
+    color: rgb(79, 137, 194);
+    clear: both;
+}
+
+aside h2{
+    position: absolute;
+    top: 5px;
+    right: 100px;
+}
