@@ -84,8 +84,6 @@ header{
 }
 header img{
   grid-column: 1/2;
-  border:3px solid #8ae9c1;
-  border-radius: 40%;
   padding: 5px;
   mix-blend-mode: color-burn;
 }
@@ -93,10 +91,9 @@ header nav{
   grid-column: 2/3;
 }
 header nav a{
-  border: 2px solid #8ae9c1;
+  border: 2px solid #a3aca8;
   margin-left: 10px;
   border-radius: 30px;
-  background-color: white;
 }
 
 nav{
