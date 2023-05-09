@@ -87,6 +87,7 @@ header img{
   border:3px solid #8ae9c1;
   border-radius: 40%;
   padding: 5px;
+  mix-blend-mode: color-burn;
 }
 header nav{
   grid-column: 2/3;
@@ -101,9 +102,7 @@ header nav a{
 nav{
   display: flex;
 }
-header, img, nav{
-  /*  */
-}
+
 footer{
   display: flex;
   align-items: flex-end;
@@ -138,6 +137,11 @@ section h2{
 }
 .adventure figure {
   width: fit-content;
+}
+.adventure a img{
+  width: 300px;
+  aspect-ratio: 2/1;
+  object-fit: contain;
 }
 pic{
   width: 100%;
