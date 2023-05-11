@@ -6,7 +6,7 @@
 
 nav{
     display: flex;
-    background-color: steelblue;
+    background-color: rgb(88, 75, 202);
     padding: 10px;
     align-items: center;
     justify-content: space-evenly;
@@ -22,8 +22,8 @@ nav a {
 }
 
 h1{
-    color: steelblue;
-    border-bottom: 1px solid steelblue;
+    color: rgb(88, 75, 202);
+    border-bottom: 1px solid  rgb(88, 75, 202);
     font-size: 1.97rem;
 }
 
@@ -31,7 +31,7 @@ main img{
     float: right;
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid  rgb(88, 75, 202);
     padding: 2px;
     box-shadow: 0 0 10px gray;
     margin: 10px 0 17px 10px;
@@ -82,10 +82,10 @@ header, .grid, footer{
 /* Class Selectors */
 .box{
     margin: 1rem;
-    border: 1px solid steelblue;
+    border: 1px solid  rgb(88, 75, 202);
     padding: 1rem;
     background-color: aliceblue;
-    color: rgb(79, 137, 194);
+    color: rgb(88, 75, 202);
     padding-left: 2rem;
     clear: both;
 }
