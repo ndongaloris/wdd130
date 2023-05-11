@@ -43,6 +43,8 @@ p {
 
 main{
     padding: 1rem;
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 aside{
@@ -50,12 +52,17 @@ aside{
     width: 45%;
     padding: 1rem;
     text-align: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 20rem;
 }
+
 
 aside h2{
     position: absolute;
     top: 1rem;
     right: 1rem;
+    color: rgb(88, 75, 202);
 }
 aside img{
     width: 200px;
@@ -85,13 +92,4 @@ header, .grid, footer{
 .grid{
     display: grid;
     align-items: center;
-}
-main{
-    grid-column: 2/3;
-    margin: 1rem;
-}
-aside{
-    grid-column: 1/2;
-    grid-row: 1/2;
-    width: 20rem;
 }
