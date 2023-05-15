@@ -174,7 +174,7 @@ figcaption {
   justify-content: space-around;
 }
 
-#contact button{
+#contact .submit{
   border:thin solid;
   border-radius: 2rem;
   padding: 0.7rem;
