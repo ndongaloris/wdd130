@@ -205,8 +205,6 @@ figcaption {
 
 #contact .imagesCU{
   width: 18rem;
-  aspect-ratio: 2/1;
-  
 }
 #contact #images{
   grid-column: 1/3;
