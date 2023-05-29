@@ -228,3 +228,68 @@ figcaption {
   width: 80%;
   margin: auto;
 }
+
+/* Trips page */
+
+#trip-page #imgs{
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: fit-content;
+}
+#trip-page #trips{
+  margin: auto;
+  margin-bottom: 5rem;
+}
+#trip-page th{
+  font-size: 2.5rem;
+  border-bottom: 1px solid;
+  font-family: var(--heading-font);
+}
+#trip-page td{
+  font-size: 1.5rem;
+  border-bottom: 1px solid;
+  font-family: var(--paragraph-font);
+}
+#trip-page #imgs figure img{
+  aspect-ratio: 3/2;
+  width: 500px
+}
+
+/* Home page */
+#HOME img{
+  width: 100%;
+  height: 50rem;
+}
+#HOME #imgs{
+  display: flex;
+  margin: auto;
+  width: fit-content;
+}
+#HOME figure img{
+  width: 100%;
+  height: 30rem;
+}
+#HOME fieldset{
+  display: flex;
+  padding: 1.5rem;
+  grid-gap: 1rem;
+  width: 75%;
+  margin: auto;
+  justify-content: space-evenly;
+  font-family: var(--heading-font);
+}
+#HOME input{
+  padding: 0.5rem;
+  width: 25rem;
+}
+#HOME button{
+  width: 10rem;
+  padding: 10px;
+  background-color: var(--accent2-color);
+  border-radius: 1rem;
+}
+#HOME label{
+  position: sticky;
+  left: 20%;
+}
