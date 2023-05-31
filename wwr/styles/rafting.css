@@ -265,7 +265,7 @@ figcaption {
 #trip-page p{
   grid-column: 2/3;
   margin: auto;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   min-width: 25rem;
 }
@@ -288,7 +288,7 @@ figcaption {
   font-family: var(--paragraph-font);
 }
 #trip-page figure img{
-  width: 25rem;
+  width: 20rem;
 }
 
 /* Home page */
@@ -330,7 +330,7 @@ figcaption {
 }
 
 #HOME #imgs figure img{
-  width: 20rem;
+  width: 25rem;
   height: 90%;
 }
 #HOME form{
