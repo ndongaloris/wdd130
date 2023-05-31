@@ -287,7 +287,7 @@ figcaption {
   font-family: var(--paragraph-font);
 }
 #trip-page #imgs figure img{
-  width: 30rem;
+  width: 10rem;
 }
 
 /* Home page */
@@ -329,7 +329,7 @@ figcaption {
 }
 
 #HOME #imgs figure img{
-  width: 95%;
+  width: 30rem;
   height: 90%;
 }
 #HOME form{
